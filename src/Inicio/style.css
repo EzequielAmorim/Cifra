@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo {
+    width: 30vw;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 30vh;
+}
+
+.imgDbz {
+    width: 53%;
+    margin-left: 30%;
+}
+
+.imgPkm {
+    width: 50.4%;
+    margin-left: 30%;
+    align-items: flex-end;
+    
+}
+
+.baixo {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 450px;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+
+.nomeUsuario {
+padding: 2.5%;
+font-size: 21px;
+margin-bottom: 3%;
+margin-left: 2%;
+background-color: #000;
+border: 2px solid ;
+border-color: rgb(236, 159, 16);
+border-radius: 5px;
+color: aliceblue;
+
+}
+
+.questDbz, .questPkm {
+    margin-bottom: 3%;
+    font-size: 35px;
+    margin-left: 2%;
+    background-color:black;
+    border-radius: 5px;
+    padding: 2%;
+    text-decoration: none;
+    color: rgb(236, 159, 16);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border: 2px solid #000;
+    border-color:rgb(236, 159, 16);
+}
+.questPkm {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.questPkm:hover {
+    color:tomato;
+    font-size: 40px;
+}
+
+.questDbz:hover {
+    color:tomato;
+    font-size: 40px;
+}
